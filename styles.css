@@ -83,7 +83,7 @@ section article#discord{
     display:inline-block;
     float:left;
     background-image:url("./img/discord1.png");
-    background-color:white;
+    background-color:#DDDDDD;
     background-position:center;
     background-size:100%;
     background-repeat:no-repeat;
@@ -92,4 +92,54 @@ section article#discord{
 section article#discord:hover{
     background-color:rgb(255, 145, 0);
     transition: 0.5s;
+}
+section article#youtube{
+    width:50%;
+    height:100%;
+    display:inline-block;
+    float:left;
+    background-image:url("./img/yt.png");
+    background-color:white;
+    background-position:center;
+    background-size:100%;
+    background-repeat:no-repeat;
+    transition: 0.5s;
+}
+section article#youtube:hover{
+    background-color:rgb(255, 145, 0);
+    transition: 0.5s;
+}
+section article#info{
+    width:50%;
+    height:100%;
+    color:black;
+    display:inline-block;
+    float:left;
+    position: relative;
+    background-image:url("./img/mcinfo.png");
+    background-color:white;
+background-position: left;
+background-size:contain;
+background-repeat: no-repeat;
+}
+
+section article#info div{
+    background-color:rgb(255, 145, 0);
+    box-shadow: 0px 0px 50px black;
+    padding:30px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    position: absolute;
+    color:black;
+    transition: 0.5s;
+}
+section article#info:hover{
+    background-color:rgb(255, 145, 0);
+    transition: 0.5s;
+}
+section#ip{
+    background-image:url("./img/iptlo1.png");
+    background-position: center;
+background-repeat: no-repeat;
 }
