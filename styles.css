@@ -164,3 +164,27 @@ section#ip div h1{
 section#ip div h2{
     font-size:50px;
 }
+.seemore{
+    font-size: 30px;
+    font-family:Roboto, serif;
+    position: absolute;
+    top:80%;
+    left:50%;
+    transform:translate(-50%,0);
+    color:white;
+    text-shadow: 0 0 10px black;
+    text-align: center;
+    text-decoration: none;
+    }
+    .seemore i {
+        animation-name: skoki;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+    }
+    @keyframes skoki{
+        0%{transform:translate(0,0%);}
+        50%{transform:translate(0,-15%);}
+        100%{transform:translate(0,0%);}
+    }
