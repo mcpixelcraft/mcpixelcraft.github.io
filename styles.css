@@ -3,6 +3,9 @@
     padding:0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 @font-face{
     font-family: Engcomica;
     src: url(./font/Engcomica.otf);
