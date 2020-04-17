@@ -2,7 +2,6 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-
 }
 @font-face{
     font-family: Engcomica;
@@ -12,6 +11,7 @@
 section{
     width:100%;
     height:50vh;
+    font-family: Roboto, serif;
 }
 section:first-of-type{
     height:100vh;
@@ -79,7 +79,6 @@ section article h2{
     font-size:20px;
 }
 section article nav{
-
     position: absolute;
 }
 section article#discord{
@@ -146,5 +145,22 @@ section article#info:hover{
 section#ip{
     background-image:url("./img/iptlo1.png");
     background-position: center;
-background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    position: relative;
+}
+section#ip div{
+    position: absolute;
+    text-align:center;
+    color:white;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-shadow: 5px 0px 2px black;
+    padding:30px;
+}
+section#ip div h1{
+    font-size:70px;
+}
+section#ip div h2{
+    font-size:50px;
 }
