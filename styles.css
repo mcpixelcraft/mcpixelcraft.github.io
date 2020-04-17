@@ -35,25 +35,24 @@ section#menu main h1{
 section#menu main h2{
     font-size:50px;
 }
-section#shop{
+section{
 
 text-align: center;
 }
-section#shop article{
+section article#shop{
     width:50%;
     height:100%;
     color:black;
     display:inline-block;
     float:left;
     position: relative;
-}
-section#shop article:first-of-type{
     background-image:url("./img/mcitemy.png");
     background-color:#DDDDDD;
 background-position: center;
 background-size:contain;
 }
-section#shop article div{
+
+section article#shop div{
     background-color:rgb(255, 145, 0);
     box-shadow: 0px 0px 50px black;
     padding:30px;
@@ -64,15 +63,34 @@ section#shop article div{
     color:black;
     transition: 0.5s;
 }
-section#shop article div:hover{
-    background-color:rgb(74, 151, 1);
+section article#shop div:hover{
+
     padding:25px;
     transition: 0.5s;
 }
-section#shop article h1{
-    font-size:50px;
+section article h1{
+    font-size:40px;
 }
-section#shop article nav{
+section article h2{
+    font-size:20px;
+}
+section article nav{
 
     position: absolute;
+}
+section article#discord{
+    width:50%;
+    height:100%;
+    display:inline-block;
+    float:left;
+    background-image:url("./img/discord1.png");
+    background-color:white;
+    background-position:center;
+    background-size:100%;
+    background-repeat:no-repeat;
+    transition: 0.5s;
+}
+section article#discord:hover{
+    background-color:rgb(255, 145, 0);
+    transition: 0.5s;
 }
