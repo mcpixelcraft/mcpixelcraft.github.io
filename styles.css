@@ -59,6 +59,7 @@ section article#shop{
     background-color:#DDDDDD;
 background-position: center;
 background-size:contain;
+    transition: 0.5s;
 }
 
 section article#shop div{
@@ -70,7 +71,7 @@ section article#shop div{
     transform:translate(-50%,-50%);
     position: absolute;
     color:black;
-    transition: 0.5s;
+
 }
 section article#shop:hover{
     background-color:rgb(255, 145, 0);
@@ -128,6 +129,7 @@ section article#info{
     background-color:white;
 background-position: left;
 background-size:contain;
+transition: 0.5s;
 }
 
 section article#info div{
