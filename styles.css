@@ -23,6 +23,7 @@ section#menu{
 background-image: url("./img/mctlo.jpg");
 background-attachment: fixed;
 background-position: center;
+background-size:cover;
 position: relative;
 }
 section#menu main{
@@ -127,7 +128,6 @@ section article#info{
     background-color:white;
 background-position: left;
 background-size:contain;
-background-repeat: no-repeat;
 }
 
 section article#info div{
