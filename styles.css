@@ -151,6 +151,7 @@ section#ip{
     background-image:url("./img/iptlo1.png");
     background-position: center;
     background-repeat: no-repeat;
+	background-size:cover;
     position: relative;
 }
 section#ip div{
