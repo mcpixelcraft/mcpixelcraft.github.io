@@ -169,6 +169,30 @@ section#ip div h1{
 section#ip div h2{
     font-size:50px;
 }
+section#ip h3{
+    font-size:20px;
+    color:white;
+    background-color:orange;
+}
+section#ip a{
+    text-decoration: none;}
+table.info2{
+    margin:10px;
+}
+table.info2 td{
+    text-shadow: 1px 0px 2px black;
+    background-color: rgba(255, 145, 0, 0.714);
+    width:33%;
+    padding:10px;
+    font-size: 20px;
+    color:white;
+    text-align:center;
+    transition: 0.5s;
+}
+table.info2 td:hover{
+    background-color: rgba(255, 145, 0, 1);
+    transition: 0.5s;
+}
 .seemore{
     font-size: 30px;
     font-family:Roboto, serif;
